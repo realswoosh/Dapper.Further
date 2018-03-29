@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/realswoosh/Dapper.Futher</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <group targetFramework="net451">
+        <dependency id="Dapper" version="(1.50.*,)"/>
+        <dependency id="Dapper.Contrib" version="(1.50.*,)"/>
+      </group>
+    </dependencies>
+    <description>$description$</description>
+    <releaseNotes>Dapper extension.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>dapper extension sql</tags>
+  </metadata>
+</package>

@@ -53,6 +53,7 @@
     <Compile Include="SqlMapperExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Dapper.Futher.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
