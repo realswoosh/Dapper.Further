@@ -9,12 +9,12 @@ This library just provide specific columns update.
 [Dapper.Contrib.Extensions.Table("az_tbl_test")]
 public class TblTest
 {
-  public static string Name = "az_tbl_test";
-		
+	public static string Name = "az_tbl_test";
+
 	[Dapper.Contrib.Extensions.ExplicitKey]
 	public int a { get; set; }
 
-  [Dapper.Contrib.Extensions.ExplicitKey]
+	[Dapper.Contrib.Extensions.ExplicitKey]
 	public int b { get; set; }
 
 	public string str { get; set; }
@@ -27,8 +27,6 @@ public class TblTest
 Dapper.Contrib.Extensions.SqlMapperExtensions.Insert(conn, new Table.TblTest() { a = 10, b = 20 });
 Dapper.Contrib.Extensions.SqlMapperExtensions.Insert(conn, new Table.TblTest() { a = 30, b = 40 });
 Dapper.Contrib.Extensions.SqlMapperExtensions.Insert(conn, new Table.TblTest() { a = 50, b = 60 });
-
-var ret = Dapper.SqlMapper.Query<Table.TblTest2>(conn, "select a from az_tbl_test");
 
 Table.TblTest tmp = new Table.TblTest();
 tmp.a = 10;
