@@ -1,4 +1,4 @@
-# Dapper.Futher
+# Dapper.Further
 
 This is Base [Dapper](https://github.com/StackExchange/Dapper) and [Dapper.Contrib](https://github.com/StackExchange/Dapper/tree/master/Dapper.Contrib)
 
