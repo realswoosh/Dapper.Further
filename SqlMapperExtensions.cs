@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 
-namespace Dapper.Futher
+namespace Dapper.Further
 {
 	public static class SqlMapperExtensions
 	{
