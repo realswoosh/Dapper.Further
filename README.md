@@ -1,6 +1,6 @@
 # Dapper.Further
 
-This is Base [Dapper](https://github.com/StackExchange/Dapper) and [Dapper.Contrib](https://github.com/StackExchange/Dapper/tree/master/Dapper.Contrib)
+This is based [Dapper](https://github.com/StackExchange/Dapper) and [Dapper.Contrib](https://github.com/StackExchange/Dapper/tree/master/Dapper.Contrib)
 
 This library just provide specific columns update.
 
@@ -34,7 +34,7 @@ tmp.b = 200;
 
 Dapper.Contrib.Extensions.SqlMapperExtensions.Update(conn, tmp);  // <- do not update because key is multiple.
 
-Dapper.Futher.SqlMapperExtensions.UpdateFields<Table.TblTest>(conn, 
+Dapper.Further.SqlMapperExtensions.UpdateFields<Table.TblTest>(conn, 
   new { a = 10, b = 200, str="str" }, 
   new { a = 50 });
 ```
