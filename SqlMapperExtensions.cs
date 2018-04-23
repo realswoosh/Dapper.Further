@@ -36,7 +36,6 @@ namespace Dapper.Further
 
 			foreach (PropertyDescriptor prop in paramCollection)
 			{
-				Console.WriteLine(prop.Name);
 				object val = prop.GetValue(param);
 				string col = "";
 				if (prop.PropertyType == typeof(Int32) ||
@@ -52,7 +51,6 @@ namespace Dapper.Further
 
 			foreach (PropertyDescriptor prop in whereCollection)
 			{
-				Console.WriteLine(prop.Name);
 				object val = prop.GetValue(where);
 				string col = "";
 				if (prop.PropertyType == typeof(Int32) ||
