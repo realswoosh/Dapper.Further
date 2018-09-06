@@ -35,6 +35,6 @@ tmp.b = 200;
 Dapper.Contrib.Extensions.SqlMapperExtensions.Update(conn, tmp);  // <- do not update because key is multiple.
 
 Dapper.Further.SqlMapperExtensions.UpdateFields<Table.TblTest>(conn, 
-  new { a = 10, b = 200, str="str" }, // update date
+  new { a = 10, b = 200, str="str" }, // update data
   new { a = 50 });		      // where clause
 ```
